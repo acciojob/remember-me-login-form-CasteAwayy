@@ -1,1 +1,27 @@
-/*  your css code here. If applicable */
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+
+form{
+  padding: 10px;
+  & >*{
+    margin: 5px 0;
+    display:  block;
+  }
+}
+
+label , label + input{
+  display:  inline;
+}
+
+.hidden{
+  display:  none;
+}
